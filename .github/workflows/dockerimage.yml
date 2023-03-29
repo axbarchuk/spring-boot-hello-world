@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Publish to Registry
-        uses: elgohr/Publish-Docker-Github-Action@master
+        uses: elgohr/Publish-Docker-Github-Action@v5
         with:
           name: axbarchuk/spring-boot-hello-world
           username: axbarchuk
